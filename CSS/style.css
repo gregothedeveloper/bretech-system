@@ -20,10 +20,6 @@
 section {
   padding: 4.5rem 0 1.5rem;
 }
-img {
-  width: 100%;
-}
-
 body {
   color: var(--text-color);
   height: 100vh;
@@ -41,23 +37,6 @@ header {
   box-shadow: 0 8px 11px rgba(14, 55, 54, 15%);
   padding: 20px 100px;
   transition: 0.5s;
-}
-.profile {
-  display: flex;
-  align-items: center;
-  column-gap: 0.5rem;
-  cursor: pointer;
-}
-.profile img {
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 50%;
-}
-.profile span {
-  font-size: 13px;
-  font-weight: 500;
 }
 .logo {
   display: flex;
